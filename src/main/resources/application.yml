@@ -1,0 +1,13 @@
+#server:
+#  port: 9090
+#  context-path:  /helloboot
+
+
+twist.author: Chen Ying Jie
+twist.date: 2016/05/17
+
+#Logback
+logging:
+  file: H:/bootLog/log.log
+  level: debug
+
