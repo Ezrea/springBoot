@@ -27,7 +27,22 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<!--tomcat 替换 jetty-->
+			<!--<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>-->
 		</dependency>
+		<!--<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jetty</artifactId>
+		</dependency>-->
+<!--		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-undertow</artifactId>
+		</dependency>-->
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,23 +54,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-		<!--jpa-->
+		<!--websocket-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
+		<!--jpa-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.boot</groupId>-->
+			<!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+		<!--</dependency>-->
 		<!--mysql-->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>mysql</groupId>-->
+			<!--<artifactId>mysql-connector-java</artifactId>-->
+		<!--</dependency>-->
 	</dependencies>
 
-	<denpencyManagement>
-		<dependencies>
-
-		</dependencies>
-	</denpencyManagement>
 	<build>
 		<plugins>
 			<plugin>

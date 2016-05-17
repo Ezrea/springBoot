@@ -10,4 +10,10 @@ twist.date: 2016/05/17
 logging:
   file: H:/bootLog/log.log
   level: debug
+# 更换标题栏图标
+#spring:
+#  mvc:
+#    favicon:
+#      enabled: false
+
 
