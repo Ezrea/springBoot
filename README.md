@@ -1,5 +1,5 @@
-# springBoot
-*a demo  of springBoot beginging ....*
+# SpringBoot learn demo
+* a demo  of springBoot beginging ....*
 
 ----------
 
